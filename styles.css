@@ -1,26 +1,25 @@
 #container {
-    margin: 20px;
+    margin: 20px; /* Set margin of 20px */
     padding: 20px;
     border: 2px solid #000;
     text-align: center;
     font-size: 18px;
     font-family: Arial, sans-serif;
     position: relative;
-    white-space: nowrap; /* Ensures everything stays on one line */
 }
 
 #container::before {
-    content: "Before Element ";
-    color: #f00;
-    font-size: 20px;
-    font-weight: bold;
-    display: inline; /* Ensures it's inline */
+    content: "Before Element "; /* Text before the content */
+    color: #f00; /* Red color */
+    font-size: 20px; /* Font size 20px */
+    font-weight: bold; /* Bold text */
+    display: inline; /* Make it inline so it stays on the same line */
 }
 
 #container::after {
-    content: " After Element";
-    color: #f00;
-    font-size: 20px;
-    font-weight: bold;
-    display: inline; /* Ensures it's inline */
+    content: " After Element"; /* Text after the content */
+    color: #f00; /* Red color */
+    font-size: 20px; /* Font size 20px */
+    font-weight: bold; /* Bold text */
+    display: inline; /* Make it inline so it stays on the same line */
 }
