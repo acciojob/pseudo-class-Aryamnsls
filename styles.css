@@ -1,1 +1,25 @@
-/*  your css code here. If applicable */
+#container {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #000;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+#container::before {
+    content: "Before Element ";
+    color: #f00;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+#container::after {
+    content: " After Element";
+    color: #f00;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
